@@ -42,11 +42,11 @@
 
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero"   class="d-flex align-items-center " style=" background: url(./assets/img/jornada\ -\ Jorge\ Andrade.jpg) center/cover no-repeat, linear-gradient(to bottom , #000000, #0c4497);">
+  <section id="hero"   class="d-flex align-items-center " style=" background: url(./assets/img/jornada\ -\ Jorge\ Andrade.jpg) center/cover no-repeat, linear-gradient(to bottom , #000000, #0c4497); height: 1000px;">
       
-    <div class="container  text-left">
+    <div class="container  text-left" style="margin-top: -100px;">
         <div class="row">
-             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-1 order-lg-2 " style="margin-left: 80px; margin-top: 30px;" data-aos="fade-up" data-aos-delay="200">
+             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-1 order-lg-2 " style="margin-left: 80px; margin-top: 150px;" data-aos="fade-up" data-aos-delay="200">
                 <h1 class="palestra">PALESTRA <span class="destaque">BENEFICENTE</span></h1>
                 <br>
                 <p class="branco produt" style="margin-top: -30px;">PRODUTIVIDADE</p>
@@ -122,6 +122,7 @@
   cursor: pointer;
   font-size: 16px;
   width: calc(100% - 1px); /* Ajustando a largura do botão */
+  margin-bottom: 0px;
   
 }
 
@@ -206,13 +207,49 @@
     
   }
 
-  
-
+.divee{
+  align-items: center;
+  text-align: center;
   
 }
 
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+
+}
+
+  .circle-icon {
+      display: none; /* Oculta os ícones de círculo */
+    }
+
+    .title {
+      display: flex;
+      align-items: center; /* Alinha verticalmente os elementos do título */
+      justify-content: center;
+    }
+
+    .subtitle {
+      margin-top: -20px; /* Reduz a margem superior do subtítulo */
+        display: flex;
+      align-items: center; /* Alinha verticalmente os elementos do título */
+      justify-content: center
+      
+    }
+    .img-fluid{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 40px;
+    }
+  }
 
 
+
+  
 
   </style>
 <div class="col-lg-6">
@@ -245,7 +282,7 @@
 
   <main id="main">
 
-   <section style="background-color:#000000" class="d-flex align-items-center">
+   <section style="background-color:#000000; margin-top: 0px;" class="d-flex align-items-center">
 
     <div class="container">
       <div class="row">
@@ -278,7 +315,7 @@
         <h2 style="color:#04CDFA">O QUE VOCÊ VAI APRENDER</h2>
       </div>
   <div class="col-lg-6 order-lg-2 d-flex flex-column justify-content-center pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
-  <div style="margin-left: -40px;">
+  <div class="divee" style="margin-left: -40px;">
     <div class="item">
       <div class="title">
         <div class="circle-icon">&#10003;</div>
