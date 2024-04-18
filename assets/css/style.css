@@ -384,7 +384,12 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-
+#hero {
+  width: 100%;
+  height: 100vh;
+    background: url(/assets/img/jornada\ -\ Jorge\ Andrade.jpg) center/cover no-repeat, linear-gradient(to bottom , #000000, #0c4497);
+    background-blend-mode: overlay;
+}
 #hero .container {
   padding-top: 72px;
 }
